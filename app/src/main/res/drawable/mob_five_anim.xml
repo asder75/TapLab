@@ -1,0 +1,19 @@
+<animation-list android:id="@+id/selected"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/orc_0"  android:duration="35"/>
+    <item android:drawable="@drawable/orc_1" android:duration="35" />
+    <item android:drawable="@drawable/orc_2" android:duration="35" />
+    <item android:drawable="@drawable/orc_3" android:duration="35" />
+    <item android:drawable="@drawable/orc_4" android:duration="35" />
+    <item android:drawable="@drawable/orc_5" android:duration="35" />
+    <item android:drawable="@drawable/orc_6" android:duration="35" />
+    <item android:drawable="@drawable/orc_7" android:duration="35" />
+    <item android:drawable="@drawable/orc_8" android:duration="35" />
+    <item android:drawable="@drawable/orc_9" android:duration="35" />
+    <item android:drawable="@drawable/orc_10" android:duration="35" />
+    <item android:drawable="@drawable/orc_11" android:duration="35" />
+    <item android:drawable="@drawable/orc_12" android:duration="35" />
+    <item android:drawable="@drawable/orc_0"  android:duration="35"/>
+
+</animation-list>

@@ -1,0 +1,14 @@
+<animation-list android:id="@+id/selected"
+    android:oneshot="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/pngshka"  android:duration="1"/>
+    <item android:drawable="@drawable/explos_1"  android:duration="35"/>
+    <item android:drawable="@drawable/explos_2" android:duration="35" />
+    <item android:drawable="@drawable/explos_3" android:duration="35" />
+    <item android:drawable="@drawable/explos_4" android:duration="35" />
+    <item android:drawable="@drawable/explos_5" android:duration="35" />
+    <item android:drawable="@drawable/explos_6" android:duration="35" />
+    <item android:drawable="@drawable/explos_7" android:duration="35" />
+    <item android:drawable="@drawable/explos_8" android:duration="35" />
+    <item android:drawable="@drawable/pngshka"  android:duration="35"/>
+</animation-list>

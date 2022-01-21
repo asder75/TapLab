@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llTop"
+    tools:context=".TitleActivity">
+
+    <ImageView
+        android:id="@+id/bgtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+       />
+
+
+    <ImageView
+        android:id="@+id/mob_one"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="100dp"
+        android:contentDescription="@string/todo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/todoimgtxt"
+        app:layout_constraintBottom_toTopOf="@+id/mob_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hpbar" />
+
+    <ImageView
+        android:id="@+id/moneyView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="@string/todoimgtxt"
+        app:layout_constraintBottom_toTopOf="@+id/mob_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wtf_money" />
+
+    <TextView
+        android:id="@+id/hp_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/balsamiqsansboldd"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="10"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/mob_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gold_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/balsamiqsansboldd"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/moneyView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hp_text" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:visibility="invisible"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/todogoldtxt"
+        app:layout_constraintBottom_toTopOf="@+id/mob_one"
+        app:layout_constraintStart_toEndOf="@+id/gold_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764"
+        app:srcCompat="@drawable/common_icon_gold_copy" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="75dp"
+        android:contentDescription="@string/todomap"
+        app:layout_constraintBottom_toTopOf="@+id/hp_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/green_pixel" />
+
+
+    <TextView
+        android:id="@+id/level_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="75dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/hp_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="110dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/mobkillstodo"
+        app:layout_constraintBottom_toTopOf="@+id/hp_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/passbar_white_s" />
+
+    <ImageView
+        android:id="@+id/mobIcon"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/mobkillstodo"
+        app:layout_constraintBottom_toTopOf="@+id/hp_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/skeletskull" />
+
+    <TextView
+        android:id="@+id/killsmob_text"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/hp_text"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578"
+        app:srcCompat="@drawable/passbar_white_s" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="110dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/mobkillstodo"
+        app:layout_constraintBottom_toTopOf="@+id/hp_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/passbar_white_s" />
+
+    <ImageView
+        android:id="@+id/mobIcon2"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/mobkillstodo"
+        app:layout_constraintBottom_toTopOf="@+id/hp_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/twoss" />
+
+    <TextView
+        android:id="@+id/dmg_text"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/hp_text"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/mobIcon2"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"
+        app:srcCompat="@drawable/passbar_white_s" />
+
+
+
+    <FrameLayout
+        android:id="@+id/place_holder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/mob_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/place_holder2"
+        android:layout_width="411dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bluebars"
+        android:contentDescription="@string/tododownbar" />
+
+    <ImageView
+        android:id="@+id/shop_bt"
+        android:layout_width="45dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/todoshopbt"
+        app:layout_constraintBottom_toBottomOf="@+id/bgtitle"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:srcCompat="@drawable/pixel_coins" />
+
+    <ImageView
+        android:id="@+id/ach_bt"
+        android:layout_width="45dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/todoshopbt"
+        app:layout_constraintBottom_toBottomOf="@+id/bgtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pixel_sword" />
+
+    <ImageView
+        android:id="@+id/set_bt"
+        android:layout_width="45dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/todoshopbt"
+        app:layout_constraintBottom_toBottomOf="@+id/bgtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_set_copy" />
+
+
+    <ImageView
+        android:id="@+id/dino_bt"
+        android:layout_width="45dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/todoshopbt"
+        app:layout_constraintBottom_toBottomOf="@+id/bgtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dinonew"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <FrameLayout
+        android:id="@+id/place_holder3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/place_holder_dino"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todoohwow"
+            android:scaleType="fitXY"
+            android:src="@drawable/grad_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/clearData"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/green_pixel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/exitbt"
+            android:contentDescription="@string/todoclrone" />
+
+        <ImageView
+            android:id="@+id/clearDataPict"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="11dp"
+
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="14dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/musor_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/clearData"
+            app:layout_constraintEnd_toEndOf="@+id/clearData"
+            app:layout_constraintStart_toStartOf="@+id/clearData"
+            app:layout_constraintTop_toTopOf="@+id/clearData"
+            android:contentDescription="@string/todoclrtwo" />
+
+        <ImageView
+            android:id="@+id/exitbt"
+            android:layout_width="76dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/todoohwow"
+            android:scaleType="fitXY"
+            android:src="@drawable/exit_bt_copy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/removeWorldBt"
+            android:layout_width="250dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/todoblockone"
+            android:scaleType="fitXY"
+            android:src="@drawable/passbar_white_s"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/clearData"
+            app:layout_constraintTop_toBottomOf="@+id/exitbt" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/balsamiqsansregularr"
+            android:text="@string/sbrosmira"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toBottomOf="@+id/removeWorldBt"
+            app:layout_constraintEnd_toEndOf="@+id/removeWorldBt"
+            app:layout_constraintStart_toStartOf="@+id/removeWorldBt"
+            app:layout_constraintTop_toTopOf="@+id/removeWorldBt" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,19 @@
+<animation-list android:id="@+id/selected"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/min_0"  android:duration="35"/>
+    <item android:drawable="@drawable/min_1" android:duration="35" />
+    <item android:drawable="@drawable/min_2" android:duration="35" />
+    <item android:drawable="@drawable/min_3" android:duration="35" />
+    <item android:drawable="@drawable/min_4" android:duration="35" />
+    <item android:drawable="@drawable/min_5" android:duration="35" />
+    <item android:drawable="@drawable/min_6" android:duration="35" />
+    <item android:drawable="@drawable/min_7" android:duration="35" />
+    <item android:drawable="@drawable/min_8" android:duration="35" />
+    <item android:drawable="@drawable/min_9" android:duration="35" />
+    <item android:drawable="@drawable/min_10" android:duration="35" />
+    <item android:drawable="@drawable/min_11" android:duration="35" />
+    <item android:drawable="@drawable/min_12" android:duration="35" />
+    <item android:drawable="@drawable/min_0"  android:duration="35"/>
+
+</animation-list>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "223684261611",
+    "project_id": "tapknights-efdce",
+    "storage_bucket": "tapknights-efdce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223684261611:android:bae32632367793996eb0ae",
+        "android_client_info": {
+          "package_name": "com.example.taplab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223684261611-7rignfiviq3aft8hvi52ifromqjdl7sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF7Bm1ltceX8JHh4m5sXCJxW7t2c3bv_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223684261611-7rignfiviq3aft8hvi52ifromqjdl7sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/shopFragm"
+    tools:context=".ShopFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:contentDescription="@string/todoshopbg"
+        android:scaleType="fitXY"
+        android:src="@drawable/oldpaper_shop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/exit_shop"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:src="@drawable/exit_bt_copy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/todoexshpbt" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/squarepixx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todoshpsquare" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:src="@drawable/swordonepix"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        android:contentDescription="@string/todoswrdpxx" />
+
+    <TextView
+        android:id="@+id/damageplus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/onepludmgt"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/swordnowichka"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/buy_sword_one"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/buybttodo"
+        android:src="@drawable/yellow_rectangle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/price_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_one"
+        app:layout_constraintEnd_toEndOf="@+id/buy_sword_one"
+        app:layout_constraintStart_toStartOf="@+id/buy_sword_one"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_one" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="23dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/pixel_coins"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_one"
+        app:layout_constraintStart_toEndOf="@+id/price_one"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_one"
+        android:contentDescription="@string/todogldicn" />
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="@string/todoshpsquare"
+        android:src="@drawable/squarepixx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:src="@drawable/pixel_sword"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        android:contentDescription="@string/todoswrdpxx" />
+    <TextView
+        android:id="@+id/damageplus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/plustwoo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/swordsworda"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <ImageView
+        android:id="@+id/buy_sword_two"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/buybttodo"
+        android:src="@drawable/yellow_rectangle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/price_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:text="24"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_two"
+        app:layout_constraintEnd_toEndOf="@+id/buy_sword_two"
+        app:layout_constraintStart_toStartOf="@+id/buy_sword_two"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_two" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="23dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/pixel_coins"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_two"
+        app:layout_constraintStart_toEndOf="@+id/price_two"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_two"
+        android:contentDescription="@string/todogldicn" />
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="310dp"
+        android:contentDescription="@string/todoshpsquare"
+        android:src="@drawable/squarepixx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:src="@drawable/firesword"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        android:contentDescription="@string/todoswrdpxx" />
+
+    <TextView
+        android:id="@+id/damageplus3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/plusthree"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/otchislenie"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+    <ImageView
+        android:id="@+id/buy_sword_three"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/buybttodo"
+        android:src="@drawable/yellow_rectangle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/price_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:text="100"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_three"
+        app:layout_constraintEnd_toEndOf="@+id/buy_sword_three"
+        app:layout_constraintStart_toStartOf="@+id/buy_sword_three"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_three" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="23dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/pixel_coins"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_three"
+        app:layout_constraintStart_toEndOf="@+id/price_three"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_three"
+        android:contentDescription="@string/todogldicn" />
+
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="420dp"
+        android:contentDescription="@string/todoshpsquare"
+        android:src="@drawable/squarepixx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:src="@drawable/minecrfiren"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="@+id/imageView19"
+        android:contentDescription="@string/todoswrdpxx" />
+
+    <TextView
+        android:id="@+id/damageplus4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/plusfivexy"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/kinshall"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="@+id/imageView19" />
+
+    <ImageView
+        android:id="@+id/buy_sword_fo"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/buybttodo"
+        android:src="@drawable/yellow_rectangle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/price_fo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:text="333"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_fo"
+        app:layout_constraintEnd_toEndOf="@+id/buy_sword_fo"
+        app:layout_constraintStart_toStartOf="@+id/buy_sword_fo"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_fo" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="23dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/pixel_coins"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_fo"
+        app:layout_constraintStart_toEndOf="@+id/price_fo"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_fo"
+        android:contentDescription="@string/todogldicn" />
+
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="530dp"
+        android:contentDescription="@string/todoshpsquare"
+        android:src="@drawable/squarepixx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="87dp"
+        android:layout_height="81dp"
+        android:src="@drawable/icesword"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22"
+        android:contentDescription="@string/todoswrdpxx" />
+
+    <TextView
+        android:id="@+id/damageplus5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/plussevenn"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:text="@string/katanaa"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+
+    <ImageView
+        android:id="@+id/buy_sword_five"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/buybttodo"
+        android:src="@drawable/yellow_rectangle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/price_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:text="1200"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_five"
+        app:layout_constraintEnd_toEndOf="@+id/buy_sword_five"
+        app:layout_constraintStart_toStartOf="@+id/buy_sword_five"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_five" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="23dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/pixel_coins"
+        app:layout_constraintBottom_toBottomOf="@+id/buy_sword_five"
+        app:layout_constraintStart_toEndOf="@+id/price_five"
+        app:layout_constraintTop_toTopOf="@+id/buy_sword_five"
+        android:contentDescription="@string/todogldicn" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/pixel_coins"
+        app:layout_constraintBottom_toBottomOf="@+id/goldreal"
+        app:layout_constraintStart_toEndOf="@+id/goldreal"
+        app:layout_constraintTop_toTopOf="@+id/goldreal"
+        android:contentDescription="@string/todogld" />
+
+    <TextView
+        android:id="@+id/goldreal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/balsamiqsansregularr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<animation-list android:id="@+id/selected"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/spi_0"  android:duration="35"/>
+    <item android:drawable="@drawable/spi_1" android:duration="35" />
+    <item android:drawable="@drawable/spi_2" android:duration="35" />
+    <item android:drawable="@drawable/spi_3" android:duration="35" />
+    <item android:drawable="@drawable/spi_4" android:duration="35" />
+    <item android:drawable="@drawable/spi_5" android:duration="35" />
+    <item android:drawable="@drawable/spi_6" android:duration="35" />
+    <item android:drawable="@drawable/spi_7" android:duration="35" />
+    <item android:drawable="@drawable/spi_8" android:duration="35" />
+    <item android:drawable="@drawable/spi_9" android:duration="35" />
+    <item android:drawable="@drawable/spi_10" android:duration="35" />
+    <item android:drawable="@drawable/spi_11" android:duration="35" />
+    <item android:drawable="@drawable/spi_12" android:duration="35" />
+    <item android:drawable="@drawable/spi_0"  android:duration="35"/>
+
+</animation-list>

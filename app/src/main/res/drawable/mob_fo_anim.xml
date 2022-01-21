@@ -1,0 +1,19 @@
+<animation-list android:id="@+id/selected"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/gol_0"  android:duration="35"/>
+    <item android:drawable="@drawable/gol_1" android:duration="35" />
+    <item android:drawable="@drawable/gol_2" android:duration="35" />
+    <item android:drawable="@drawable/gol_3" android:duration="35" />
+    <item android:drawable="@drawable/gol_4" android:duration="35" />
+    <item android:drawable="@drawable/gol_5" android:duration="35" />
+    <item android:drawable="@drawable/gol_6" android:duration="35" />
+    <item android:drawable="@drawable/gol_7" android:duration="35" />
+    <item android:drawable="@drawable/gol_8" android:duration="35" />
+    <item android:drawable="@drawable/gol_9" android:duration="35" />
+    <item android:drawable="@drawable/gol_10" android:duration="35" />
+    <item android:drawable="@drawable/gol_11" android:duration="35" />
+    <item android:drawable="@drawable/gol_12" android:duration="35" />
+    <item android:drawable="@drawable/gol_0"  android:duration="35"/>
+
+</animation-list>
